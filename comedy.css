@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: #fff;
+    padding-top: 70px;
+}
+
+/*=====header=====*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #000;
+    position: fixed;     
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+
+}
+
+/*comedy*/
+
+.comedy {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c61515;
+}
+
+/* ANIME GRID */
+.anime-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+/* ANIME CARD */
+.anime-card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+/* IMAGE */
+.anime-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+/* TEXT */
+.anime-card h4 {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.anime-card p {
+  margin: 0 10px 10px;
+  color: #bbb;
+  font-size: 13px;
+}
+
+/* Footer */ 
+footer 
+{   background:  #c61515; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+footer p 
+{ 
+    margin-top: 10px; 
+    font-size: 14px;
+} 

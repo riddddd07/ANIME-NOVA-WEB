@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+}
+
+/* center login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* login card */
+.login-box {
+    width: 350px;
+    background: #222;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    color: rgb(243, 237, 237);
+}
+
+.login-box h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* labels */
+.login-box label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* inputs */
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 6px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* forgot password */
+.forgot {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    color: #fff;
+}
+
+/* button */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #c61515;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-box button:hover {
+    background: #f5f2f2;
+    color: rgb(9, 9, 9);
+}
